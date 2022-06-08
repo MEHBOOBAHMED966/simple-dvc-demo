@@ -26,3 +26,12 @@ dvc add given_data/winequality.csv
 git add .
 
 git commit -m "first commit"
+
+update for readme
+''' bash
+git add . && git commit -m "update Readme.md'''
+''' bash 
+git remote repo
+git branch main
+git  puch main
+'''
