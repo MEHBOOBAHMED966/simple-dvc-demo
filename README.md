@@ -20,4 +20,9 @@ download the data
 git init
 
 dvc init
+
 dvc add given_data/winequality.csv
+
+git add .
+
+git commit -m "first commit"
