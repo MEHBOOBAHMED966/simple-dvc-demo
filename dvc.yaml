@@ -17,7 +17,7 @@ split_data:
     - data/processed/train_winequality.csv
     - data/processed/test_winequality.csv    
 
-    train_and_evaluate:
+train_and_evaluate:
     cmd: python src/train_and_evaluate.py --config=params.yaml
     deps:
     - data/processed/train_winequality.csv
@@ -26,7 +26,7 @@ split_data:
     params:
     - estimators.ElasticNet.params.alpha
     - estimators.ElasticNet.params.l1_ratio
-    metrics:
+metrics:
     - report/scores.json:
         cache: false
     - report/params.json:
